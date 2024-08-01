@@ -1,0 +1,32 @@
+{
+  "name": "@darkentech/utilities",
+  "version": "1.0.0",
+  "description": "A set of utilities.",
+  "main": "dist/index.js",
+  "module": "dist/index.cjs",
+  "types": "dist/index.d.ts",
+  "homepage": "https://darkentech.com",
+  "repository": {
+    "url": "https://github.com/Darken-Tech/utilities"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "utility",
+    "csv to json",
+    "json to csv",
+    "firebase utility",
+    "firebase file upload"
+  ],
+  "author": "DarkenTech",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^10.12.4"
+  },
+  "type": "module",
+  "devDependencies": {
+    "tsup": "^8.2.3",
+    "typescript": "^5.5.4"
+  }
+}
